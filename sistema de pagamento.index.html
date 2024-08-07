@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+      <title>pagar</title>
+
+      <link rel="stylesheet" href="parque.css">
+      <script src="pagar.js"></script>
+</head>
+
+<body>
+  <article class="pagamento" id="pago">
+    <div class="container-pagar">
+      <div class="checkout">
+          <h2>Checkout</h2>
+          <div class="order-summary">
+              <p>Ordem #101</p>
+              <ul>
+                  <li>Montanha-Russa</li>
+                  <li>Roda-Gigante</li>
+                  <li>Carrossel</li>
+              </ul>
+              <p>Envio: R$ 9,50</p>
+              <h3>Total: R$ 167,50</h3>
+          </div>
+      </div>
+      <div class="payment">
+          <h2>Pagamento</h2>
+          <div class="card-2">
+              <div class="card-image">
+                  <img src="imagems/cartao.jpg" alt="Cartão Visa">
+              </div>
+              <form>
+                  <div class="input-group">
+                      <label for="card-number">Número do Cartão</label>
+                      <input type="text" id="card-number" placeholder="0000 0000 0000 0000">
+                  </div>
+                  <div class="input-group">
+                      <label for="expiration">Validade</label>
+                      <input type="text" id="expiration" placeholder="MM / AA">
+                  </div>
+                  <div class="input-group">
+                      <label for="cvc">CVC</label>
+                      <input type="text" id="cvc" placeholder="000">
+                  </div>
+                  <button class="finalisar" type="submit">Comprar</button>
+              </form>
+          </div>
+      </div>
+  </div>
+  </article>
+
+</body>
+
+</html>
